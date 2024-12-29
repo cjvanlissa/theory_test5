@@ -1,0 +1,13 @@
+digraph {
+  observation;
+  induction;
+  deduction;
+  testing;
+  evaluation;
+
+  observation -> induction;
+  induction -> deduction;
+  deduction -> testing;
+  testing -> evaluation;
+  evaluation -> observation; 
+}
